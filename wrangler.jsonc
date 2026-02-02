@@ -25,7 +25,30 @@
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+
+
+  "ai": {
+    "binding": "AI"
+  },
+
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "CHAT_MEMORY",
+        "class_name": "ChatMemory"
+      }
+    ]
+  },
+
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_classes": ["ChatMemory"]
+    }
+  ]
+
+
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
