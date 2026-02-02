@@ -45,5 +45,5 @@ npx wrangler dev
 - Typing indicator UI
 - Dark-mode interface
 
-##Notes
+## otes
 Workers AI requires remote preview or deployment and cannot run in local-only mode.
